@@ -1,0 +1,20 @@
+/* ══ PROJECTS ══ */
+.proj-list{display:flex;flex-direction:column;gap:0;margin-top:4rem;}
+.pj{display:grid;grid-template-columns:110px 1fr 1.5fr 200px;align-items:start;gap:3rem;padding:3.5rem 0;border-bottom:1px solid var(--border);position:relative;opacity:0;transform:translateY(40px);}
+.pj-bg{position:absolute;inset:0;background:transparent;z-index:-1;transition:background .3s;}
+.pj:hover .pj-bg{background:rgba(210,255,0,.018);}
+.pj-num{font-family:'DM Serif Display',serif;font-style:italic;font-size:6.5rem;color:rgba(240,237,232,.055);line-height:1;letter-spacing:-.05em;padding-top:.1rem;transition:color .3s;}
+.pj:hover .pj-num{color:rgba(210,255,0,.12);}
+.pj-badge{font-family:'Space Mono',monospace;font-size:.56rem;letter-spacing:.18em;text-transform:uppercase;padding:.28rem .72rem;border-radius:100px;display:inline-block;margin-bottom:.9rem;}
+.pj-badge.full{color:#00e5a0;border:1px solid rgba(0,229,160,.32);background:rgba(0,229,160,.06);}
+.pj-badge.back{color:#7ab8ff;border:1px solid rgba(96,165,250,.32);background:rgba(96,165,250,.06);}
+.pj-badge.front{color:var(--lime);border:1px solid rgba(210,255,0,.32);background:rgba(210,255,0,.06);}
+.pj-title{font-family:'DM Serif Display',serif;font-size:clamp(2.2rem,3.5vw,3rem);letter-spacing:-.04em;color:var(--white);line-height:1.05;}
+.pj-desc{font-size:.88rem;color:var(--grey);line-height:1.85;padding-top:.2rem;}
+.pj-side{display:flex;flex-direction:column;gap:1.2rem;align-items:flex-end;}
+.pj-techs{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:flex-end;}
+.pt{font-family:'Space Mono',monospace;font-size:.54rem;color:var(--grey);border:1px solid var(--border);padding:.25rem .55rem;border-radius:2px;letter-spacing:.05em;}
+.pj-link{font-family:'Space Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--white);text-decoration:none;border:1px solid var(--border2);padding:.68rem 1.35rem;border-radius:2px;transition:border-color .25s,color .25s,box-shadow .25s,transform .2s;white-space:nowrap;}
+.pj-link:hover{border-color:var(--lime);color:var(--lime);box-shadow:0 0 24px rgba(210,255,0,.1);transform:translateY(-2px);}
+.pj-link.hot{background:var(--lime);color:var(--bg);border-color:transparent;font-weight:700;}
+.pj-link.hot:hover{background:var(--lime2);box-shadow:0 0 32px rgba(210,255,0,.38);transform:translateY(-2px);}

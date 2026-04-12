@@ -1,0 +1,22 @@
+/* ══ CONTACT ══ */
+#contact{background:var(--bg2);}
+.contact-layout{display:grid;grid-template-columns:1fr 1fr;gap:8rem;margin-top:4rem;}
+.ct-intro{font-family:'DM Serif Display',serif;font-style:italic;font-size:1.45rem;letter-spacing:-.02em;color:var(--grey);line-height:1.68;margin-bottom:2.8rem;opacity:0;transform:translateX(-40px);}
+.ct-cards{display:flex;flex-direction:column;gap:0;border:1px solid var(--border);}
+.ct-card{display:flex;align-items:center;gap:1.5rem;padding:1.4rem 1.7rem;border-bottom:1px solid var(--border);text-decoration:none;color:var(--white);transition:background .25s;opacity:0;transform:translateX(-30px);}
+.ct-card:last-child{border-bottom:none;}
+.ct-card:hover{background:rgba(210,255,0,.025);}
+.ct-ico{width:42px;height:42px;border:1px solid var(--border2);border-radius:4px;display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-size:.68rem;color:var(--lime);flex-shrink:0;transition:border-color .25s,background .25s;}
+.ct-card:hover .ct-ico{border-color:var(--lime);background:rgba(210,255,0,.07);}
+.ct-lbl{font-family:'Space Mono',monospace;font-size:.54rem;letter-spacing:.18em;text-transform:uppercase;color:var(--grey);margin-bottom:.2rem;}
+.ct-val{font-size:.86rem;font-weight:500;}
+.ct-form{display:flex;flex-direction:column;gap:1.2rem;opacity:0;transform:translateX(50px);}
+.cf-row{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;}
+.cf-f{display:flex;flex-direction:column;gap:.4rem;}
+.cf-l{font-family:'Space Mono',monospace;font-size:.54rem;letter-spacing:.2em;text-transform:uppercase;color:var(--grey);}
+.cf-f input,.cf-f textarea{background:rgba(240,237,232,.03);border:1px solid var(--border2);border-radius:3px;padding:.92rem 1.1rem;color:var(--white);font-family:'Mona Sans',sans-serif;font-size:.88rem;font-weight:350;outline:none;transition:border-color .25s,background .25s;resize:none;}
+.cf-f input::placeholder,.cf-f textarea::placeholder{color:var(--grey2);}
+.cf-f input:focus,.cf-f textarea:focus{border-color:rgba(210,255,0,.4);background:rgba(210,255,0,.02);}
+.cf-f textarea{height:135px;}
+.send-btn{background:var(--lime);color:var(--bg);font-family:'Mona Sans',sans-serif;font-size:.84rem;font-weight:700;padding:1rem 2.5rem;border-radius:3px;border:none;cursor:none;align-self:flex-start;transition:background .2s,transform .15s,box-shadow .2s;box-shadow:0 0 24px rgba(210,255,0,.12);}
+.send-btn:hover{background:var(--lime2);transform:translateY(-2px);box-shadow:0 0 44px rgba(210,255,0,.38);}

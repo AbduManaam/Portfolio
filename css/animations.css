@@ -1,0 +1,44 @@
+/* ══ PREMIUM SECTION ANIMATIONS ══ */
+
+/* Skills — floating number ghost */
+.sk::before{transition:opacity .4s,transform .5s,font-size .4s;transform:translateY(0);}
+.sk:hover::before{opacity:.06;transform:translateY(-8px);font-size:11rem;}
+
+/* Skill card top accent glow on hover */
+.sk::after{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--lime),rgba(210,255,0,.2));
+  transform:scaleX(0);transform-origin:left;transition:transform .5s cubic-bezier(.4,0,.2,1);
+}
+.sk:hover::after{transform:scaleX(1);}
+
+/* Tag pop on hover */
+.tag{transition:border-color .25s,color .25s,background .25s,transform .2s;}
+.tag:hover{border-color:rgba(210,255,0,.4);color:var(--lime);background:rgba(210,255,0,.05);transform:translateY(-2px);}
+
+/* Projects — number morphs on hover */
+.pj-num{transition:color .4s,transform .4s,letter-spacing .4s;}
+.pj:hover .pj-num{color:rgba(210,255,0,.18);transform:translateX(6px) scale(1.04);letter-spacing:-.07em;}
+
+/* Project row reveal line */
+.pj::after{
+  content:'';position:absolute;bottom:0;left:0;height:1px;width:0;
+  background:linear-gradient(90deg,var(--lime),transparent);
+  transition:width .8s cubic-bezier(.4,0,.2,1);
+}
+.pj:hover::after{width:100%;}
+
+/* Project title shimmer */
+.pj-title{
+  background:var(--white);
+  -webkit-background-clip:text;background-clip:text;
+  transition:background-image .4s;
+}
+.pj:hover .pj-title{
+  background-image:linear-gradient(135deg,var(--white) 0%,var(--lime) 60%,var(--white) 100%);
+  background-size:200% auto;
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+  animation:shimmerTitle 1.6s linear infinite;
+}
+@keyframes shimmerTitle{to{background-position:200% center;}}

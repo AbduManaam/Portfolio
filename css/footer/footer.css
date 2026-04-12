@@ -1,0 +1,8 @@
+/* ══ FOOTER ══ */
+footer{padding:2.5rem 5rem;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;background:var(--bg);}
+.f-logo{font-family:'DM Serif Display',serif;font-style:italic;font-size:1.5rem;color:var(--white);}
+.f-logo b{color:var(--lime);font-style:normal;font-weight:400;}
+.f-copy{font-family:'Space Mono',monospace;font-size:.57rem;color:var(--grey);letter-spacing:.1em;}
+.f-links{display:flex;gap:2rem;}
+.f-links a{font-family:'Space Mono',monospace;font-size:.57rem;color:var(--grey);text-decoration:none;letter-spacing:.1em;transition:color .25s;}
+.f-links a:hover{color:var(--lime);}
