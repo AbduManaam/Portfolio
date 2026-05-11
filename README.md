@@ -106,7 +106,7 @@ This is a static site — no build tools or dependencies required.
 
 ## 📬 Contact
 
-- 📧 Email: [abdumanaam@gmail.com](mailto:abdumanaam@gmail.com)
+- 📧 Email: [abdumanam.dev@gmail.com](mailto:abdumanam.dev@gmail.com)
 - 📞 Phone: +91 9539621912
 - 💻 GitHub: [github.com/AbduManaam](https://github.com/AbduManaam)
 - 🔗 LinkedIn: [linkedin.com/in/abdu-manaam](https://www.linkedin.com/in/abdu-manaam)
