@@ -5,7 +5,7 @@
 .sk::before{content:attr(data-n);position:absolute;bottom:-1.5rem;right:1rem;font-family:'DM Serif Display',serif;font-style:italic;font-size:9rem;color:rgba(240,237,232,.022);line-height:1;pointer-events:none;}
 .sk-cat{font-family:'Space Mono',monospace;font-size:.56rem;letter-spacing:.22em;text-transform:uppercase;color:var(--lime);margin-bottom:.6rem;}
 .sk-name{font-family:'DM Serif Display',serif;font-size:1.85rem;letter-spacing:-.03em;color:var(--white);margin-bottom:2rem;}
-.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:2.2rem;}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:0;}
 .tag{font-family:'Space Mono',monospace;font-size:.55rem;color:var(--grey);background:rgba(240,237,232,.04);border:1px solid var(--border);padding:.28rem .6rem;border-radius:2px;letter-spacing:.06em;}
 .bars{display:flex;flex-direction:column;gap:.85rem;}
 .br-head{display:flex;justify-content:space-between;margin-bottom:.35rem;}

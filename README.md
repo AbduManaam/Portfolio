@@ -2,7 +2,7 @@
 
 A modern, animated personal portfolio website built with vanilla HTML, CSS, and JavaScript. Designed to showcase my skills, projects, and experience as a Full Stack Developer specializing in Golang and React.
 
-🌐 **Live Site:** [abdumanaam.github.io](https://abdumanaam.github.io)
+🌐 **Live Site:** [abdumanam.vercel.app](https://abdumanam.vercel.app)
 
 ---
 
@@ -13,7 +13,7 @@ A modern, animated personal portfolio website built with vanilla HTML, CSS, and 
 - GSAP-powered scroll animations
 - Responsive design for all screen sizes
 - Sections: Hero, About, Experience, Skills, Projects, Contact
-- Contact form with email integration
+- Contact form triggering pre-filled email client
 - Marquee skill ticker
 
 ---
@@ -71,12 +71,12 @@ portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AbduManaam/AbduManaam.github.io.git
+   git clone https://github.com/AbduManaam/Portfolio.git
    ```
 
 2. Open the project folder:
    ```bash
-   cd AbduManaam.github.io
+   cd Portfolio
    ```
 
 3. Open `index.html` in your browser — no build step needed!
@@ -106,16 +106,10 @@ This is a static site — no build tools or dependencies required.
 
 ## 📬 Contact
 
-- 📧 Email: [abdumanaam@gmail.com](mailto:abdumanaam@gmail.com)
+- 📧 Email: [abdumanam.dev@gmail.com](mailto:abdumanam.dev@gmail.com)
 - 📞 Phone: +91 9539621912
 - 💻 GitHub: [github.com/AbduManaam](https://github.com/AbduManaam)
 - 🔗 LinkedIn: [linkedin.com/in/abdu-manaam](https://www.linkedin.com/in/abdu-manaam)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
